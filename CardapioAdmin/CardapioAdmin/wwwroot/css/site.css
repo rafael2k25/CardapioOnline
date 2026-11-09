@@ -1,6 +1,14 @@
+/* CSS DO SISTEMA */
+
+.table-container td {
+    color: #fd7e14;
+}
+
+.table-container tr {
+ color: #ff06b5;
+}
 
 /* TELA DE PRODUTOS */
-
 .product-info {
     display: flex;
     align-items: center;

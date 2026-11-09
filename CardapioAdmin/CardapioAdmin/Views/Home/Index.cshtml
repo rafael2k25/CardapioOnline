@@ -2,6 +2,10 @@
     ViewData["Title"] = "Dashboard";
 }
 
+@section Styles {
+    <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+}
+
 <div class="dashboard">
 
     <!-- CABEÇALHO -->
@@ -85,7 +89,7 @@
                 </div>
             </a>
 
-            <a href="#" class="action-card">
+            <a asp-controller="Categoria" asp-action="Index" class="action-card">
                 <i class="bi bi-tags"></i>
                 <div>
                     <h3>Gerenciar categorias</h3>
@@ -93,7 +97,7 @@
                 </div>
             </a>
 
-            <a href="#" class="action-card">
+            <a asp-controller="Produto" asp-action="Index" class="action-card">
                 <i class="bi bi-box-seam"></i>
                 <div>
                     <h3>Gerenciar produtos</h3>
@@ -142,9 +146,9 @@
 
                 <tbody>
                     <tr>
-                        <td>Heineken Long Neck 330ml</td>
-                        <td>Cervejas</td>
-                        <td>R$ 7,50</td>
+                        <td>TESTE TESTE</td>
+                        <td>Descrição</td>
+                        <td>Preço</td>
                         <td>
                             <span class="product-status available">
                                 Disponível
@@ -153,9 +157,9 @@
                     </tr>
 
                     <tr>
-                        <td>Coca-Cola 2L</td>
-                        <td>Refrigerantes</td>
-                        <td>R$ 11,00</td>
+                        <td>TESTE TESTE</td>
+                        <td>Descrição</td>
+                        <td>Preço</td>
                         <td>
                             <span class="product-status available">
                                 Disponível
@@ -164,9 +168,9 @@
                     </tr>
 
                     <tr>
-                        <td>Vodka Absolut 1L</td>
-                        <td>Destilados</td>
-                        <td>R$ 89,90</td>
+                        <td>TESTE TESTE</td>
+                        <td>Descrição</td>
+                        <td>Preço</td>
                         <td>
                             <span class="product-status unavailable">
                                 Indisponível
@@ -175,9 +179,9 @@
                     </tr>
 
                     <tr>
-                        <td>Red Bull 250ml</td>
-                        <td>Energéticos</td>
-                        <td>R$ 9,00</td>
+                        <td>TESTE TESTE</td>
+                        <td>Descrição</td>
+                        <td>Preço</td>
                         <td>
                             <span class="product-status available">
                                 Disponível

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lu5tCWP1h9hMxnmK2Q4OOC0tgss0ShDZJdQ5UVJn8XKf/WN3R4XuOfKpnX4xZBqmemXZyA3k7L38lSSPsflBOw==",
+  "dgSpecHash": "jwMhXgmLQv9qfkIj3wo/esEXYEHrK4iDEzdmvNUMtnY1OX464Yiwndo/w5q5rGT31FtaykduCvfMRHS999HCrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\CardapioAdmin.csproj",
+  "projectFilePath": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioOnline\\CardapioAdmin\\CardapioAdmin\\CardapioAdmin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tarde.cetafaju\\.nuget\\packages\\azure.core\\1.41.0\\azure.core.1.41.0.nupkg.sha512",
     "C:\\Users\\Tarde.cetafaju\\.nuget\\packages\\azure.identity\\1.12.1\\azure.identity.1.12.1.nupkg.sha512",
