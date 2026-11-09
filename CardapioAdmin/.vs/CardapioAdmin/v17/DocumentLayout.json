@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\models\\cardapiobebidascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\models\\cardapiobebidascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|c:\\users\\tarde.cetafaju\\documents\\github\\cardapioadmin\\cardapioadmin\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{512025CD-94A3-4AF8-9829-2FDA29D11D9A}|CardapioAdmin\\CardapioAdmin.csproj|solutionrelative:cardapioadmin\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\Produto\\Index.cshtml",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Views\\Produto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\Produto\\Index.cshtml",
+              "RelativeToolTip": "CardapioAdmin\\Views\\Produto\\Index.cshtml",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAIwBIBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T19:59:31.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\Categoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Views\\Categoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\Categoria\\Index.cshtml",
+              "RelativeToolTip": "CardapioAdmin\\Views\\Categoria\\Index.cshtml",
+              "ViewState": "AQIAALUAAAAAAAAAAAAIwN0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T19:59:09.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "CardapioAdmin\\Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T19:22:39.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "CardapioAdmin\\Controllers\\CategoriaController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T19:19:07.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CardapioAdmin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T19:11:06.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Program.cs",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Program.cs",
+              "RelativeToolTip": "CardapioAdmin\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T18:51:20.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\appsettings.json",
+              "RelativeDocumentMoniker": "CardapioAdmin\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\appsettings.json",
+              "RelativeToolTip": "CardapioAdmin\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-06T17:26:08.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CardapioBebidasContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Models\\CardapioBebidasContext.cs",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Models\\CardapioBebidasContext.cs",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Models\\CardapioBebidasContext.cs",
+              "RelativeToolTip": "CardapioAdmin\\Models\\CardapioBebidasContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T17:48:42.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CardapioAdmin\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-06T18:51:24.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CardapioAdmin\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CardapioAdmin\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAqwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-06T17:49:55.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CardapioAdmin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T18:06:21.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CardapioAdmin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T18:06:19.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CardapioAdmin\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T17:51:39.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CardapioAdmin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAcwJwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T17:50:15.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "CardapioAdmin\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "CardapioAdmin\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-06T17:50:01.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CardapioAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioAdmin\\CardapioAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CardapioAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAAAcwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T18:07:09.173Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

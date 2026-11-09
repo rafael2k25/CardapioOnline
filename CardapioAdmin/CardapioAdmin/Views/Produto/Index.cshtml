@@ -1,0 +1,274 @@
+﻿@model IEnumerable<CardapioAdmin.Models.Produto>
+
+@{
+    ViewData["Title"] = "Produtos";
+
+    var totalProdutos = Model.Count();
+    var produtosAtivos = Model.Count(p => p.Ativo);
+    var produtosDisponiveis = Model.Count(p => p.Disponivel && p.Ativo);
+    var produtosIndisponiveis = totalProdutos - produtosDisponiveis;
+}
+
+<div class="dashboard">
+
+    <!-- CABEÇALHO -->
+    <section class="dashboard-header">
+        <div>
+            <span class="dashboard-subtitle">GERENCIAMENTO</span>
+            <h1>Produtos</h1>
+            <p>Gerencie os produtos disponíveis no seu catálogo.</p>
+        </div>
+
+        <div>
+            <a asp-action="Create" class="btn-primary-custom">
+                <i class="bi bi-plus-lg"></i>
+                Novo produto
+            </a>
+        </div>
+    </section>
+
+    <!-- INDICADORES -->
+    <section class="dashboard-cards">
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Total de produtos</span>
+                <h2>@totalProdutos</h2>
+                <small>Produtos cadastrados</small>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-box-seam"></i>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Produtos ativos</span>
+                <h2>@produtosAtivos</h2>
+                <small>Disponíveis no sistema</small>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-check-circle"></i>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Disponíveis</span>
+                <h2>@produtosDisponiveis</h2>
+                <small>Disponíveis para consulta</small>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-cart-check"></i>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Indisponíveis</span>
+                <h2>@produtosIndisponiveis</h2>
+                <small>Indisponíveis ou inativos</small>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-exclamation-circle"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- LISTA DE PRODUTOS -->
+    <section class="recent-products">
+
+        <div class="section-header">
+            <div>
+                <h2>Lista de produtos</h2>
+                <p>Consulte e gerencie os produtos cadastrados.</p>
+            </div>
+        </div>
+
+        <!-- PESQUISA E FILTROS -->
+        <div class="category-toolbar">
+
+            <div class="category-search">
+                <i class="bi bi-search"></i>
+                <input type="text"
+                       id="pesquisaProduto"
+                       placeholder="Pesquisar produto..." />
+            </div>
+
+            <span class="category-counter">
+                <strong id="contadorProdutos">@totalProdutos</strong> produtos encontrados
+            </span>
+
+        </div>
+
+        <!-- TABELA -->
+        <div class="table-container">
+
+            <table class="table" id="tabelaProdutos">
+
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Categoria</th>
+                        <th>Preço</th>
+                        <th>Disponibilidade</th>
+                        <th>Status</th>
+                        <th>Cadastro</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr class="produto-linha">
+
+                            <td>
+                                <div class="product-info">
+
+                                    @if (!string.IsNullOrWhiteSpace(item.ImagemUrl))
+                                    {
+                                        <img src="@item.ImagemUrl"
+                                             alt="@item.Nome"
+                                             class="product-thumbnail" />
+                                    }
+                                    else
+                                    {
+                                        <div class="product-thumbnail-placeholder">
+                                            <i class="bi bi-image"></i>
+                                        </div>
+                                    }
+
+                                    <div>
+                                        <strong>@item.Nome</strong>
+                                        <small>
+                                            @(string.IsNullOrWhiteSpace(item.Descricao)
+                                                ? "Sem descrição"
+                                                : item.Descricao)
+                                        </small>
+                                    </div>
+
+                                </div>
+                            </td>
+
+                            <td>
+                                @(item.Categoria?.Nome ?? "Sem categoria")
+                            </td>
+
+                            <td>
+                                <strong>
+                                    @item.Preco.ToString("C2",
+                                             System.Globalization.CultureInfo.GetCultureInfo("pt-BR"))
+                                </strong>
+                            </td>
+
+                            <td>
+                                @if (item.Disponivel)
+                                {
+                                    <span class="product-status available">
+                                        Disponível
+                                    </span>
+                                }
+                                else
+                                {
+                                    <span class="product-status unavailable">
+                                        Indisponível
+                                    </span>
+                                }
+                            </td>
+
+                            <td>
+                                @if (item.Ativo)
+                                {
+                                    <span class="product-status available">
+                                        Ativo
+                                    </span>
+                                }
+                                else
+                                {
+                                    <span class="product-status unavailable">
+                                        Inativo
+                                    </span>
+                                }
+                            </td>
+
+                            <td>
+                                @item.DataCadastro.ToString("dd/MM/yyyy")
+                            </td>
+
+                            <td>
+                                <div class="table-actions">
+
+                                    <a asp-action="Edit"
+                                       asp-route-id="@item.Id"
+                                       class="table-action edit"
+                                       title="Editar">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+                                    <a asp-action="Details"
+                                       asp-route-id="@item.Id"
+                                       class="table-action details"
+                                       title="Detalhes">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+
+                                    <a asp-action="Delete"
+                                       asp-route-id="@item.Id"
+                                       class="table-action delete"
+                                       title="Excluir">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+
+                                </div>
+                            </td>
+
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+
+            <div id="nenhumProduto" class="empty-search" style="display:none">
+                <i class="bi bi-search"></i>
+                <p>Nenhum produto encontrado.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+@section Scripts {
+    <script>
+        const pesquisaProduto = document.getElementById("pesquisaProduto");
+        const linhasProdutos = document.querySelectorAll(".produto-linha");
+        const nenhumProduto = document.getElementById("nenhumProduto");
+        const contadorProdutos = document.getElementById("contadorProdutos");
+        const tabelaProdutos = document.getElementById("tabelaProdutos");
+
+        pesquisaProduto.addEventListener("input", function () {
+            const termo = this.value.toLowerCase();
+            let encontrados = 0;
+
+            linhasProdutos.forEach(linha => {
+                const conteudo = linha.textContent.toLowerCase();
+                const corresponde = conteudo.includes(termo);
+
+                linha.style.display = corresponde ? "" : "none";
+
+                if (corresponde) {
+                    encontrados++;
+                }
+            });
+
+            contadorProdutos.textContent = encontrados;
+            nenhumProduto.style.display = encontrados === 0 ? "block" : "none";
+            tabelaProdutos.style.display = encontrados === 0 ? "none" : "table";
+        });
+    </script>
+}

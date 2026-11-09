@@ -1,0 +1,194 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="dashboard">
+
+    <!-- CABEÇALHO -->
+    <section class="dashboard-header">
+        <div>
+            <h1>Dashboard</h1>
+            <p>Bem-vindo ao painel administrativo do Cardápio.</p>
+        </div>
+
+        <div class="header-actions">
+            <span class="status-system">
+                Sistema operacional
+            </span>
+        </div>
+    </section>
+
+    <!-- INDICADORES -->
+    <section class="dashboard-cards">
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Total de produtos</span>
+                <h2>128</h2>
+                <p>Produtos cadastrados</p>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-cup-straw"></i>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Categorias</span>
+                <h2>8</h2>
+                <p>Categorias cadastradas</p>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-grid"></i>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Produtos disponíveis</span>
+                <h2>112</h2>
+                <p>Disponíveis para consulta</p>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-check-circle"></i>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Produtos indisponíveis</span>
+                <h2>16</h2>
+                <p>Fora de disponibilidade</p>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-exclamation-circle"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ACESSO RÁPIDO -->
+    <section class="quick-actions">
+
+        <div class="section-header">
+            <h2>Acesso rápido</h2>
+            <p>Gerencie as informações da sua loja.</p>
+        </div>
+
+        <div class="quick-actions-grid">
+
+            <a href="#" class="action-card">
+                <i class="bi bi-plus-circle"></i>
+                <div>
+                    <h3>Adicionar produto</h3>
+                    <p>Cadastrar uma nova bebida.</p>
+                </div>
+            </a>
+
+            <a href="#" class="action-card">
+                <i class="bi bi-tags"></i>
+                <div>
+                    <h3>Gerenciar categorias</h3>
+                    <p>Organizar os produtos da loja.</p>
+                </div>
+            </a>
+
+            <a href="#" class="action-card">
+                <i class="bi bi-box-seam"></i>
+                <div>
+                    <h3>Gerenciar produtos</h3>
+                    <p>Editar preços e informações.</p>
+                </div>
+            </a>
+
+            <a href="#" class="action-card">
+                <i class="bi bi-eye"></i>
+                <div>
+                    <h3>Visualizar cardápio</h3>
+                    <p>Consultar a versão pública.</p>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUTOS RECENTES -->
+    <section class="recent-products">
+
+        <div class="section-header">
+            <div>
+                <h2>Produtos recentes</h2>
+                <p>Últimos produtos cadastrados no sistema.</p>
+            </div>
+
+            <a href="#" class="view-all">
+                Ver todos
+                <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+
+        <div class="table-container">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Categoria</th>
+                        <th>Preço</th>
+                        <th>Disponibilidade</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Heineken Long Neck 330ml</td>
+                        <td>Cervejas</td>
+                        <td>R$ 7,50</td>
+                        <td>
+                            <span class="product-status available">
+                                Disponível
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Coca-Cola 2L</td>
+                        <td>Refrigerantes</td>
+                        <td>R$ 11,00</td>
+                        <td>
+                            <span class="product-status available">
+                                Disponível
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Vodka Absolut 1L</td>
+                        <td>Destilados</td>
+                        <td>R$ 89,90</td>
+                        <td>
+                            <span class="product-status unavailable">
+                                Indisponível
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Red Bull 250ml</td>
+                        <td>Energéticos</td>
+                        <td>R$ 9,00</td>
+                        <td>
+                            <span class="product-status available">
+                                Disponível
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </section>
+
+</div>

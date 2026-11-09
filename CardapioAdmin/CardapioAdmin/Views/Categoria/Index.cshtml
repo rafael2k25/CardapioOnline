@@ -1,0 +1,221 @@
+﻿
+@model IEnumerable<CardapioAdmin.Models.Categoria>
+
+@{
+    ViewData["Title"] = "Categorias";
+
+    var totalCategorias = Model.Count();
+    var categoriasAtivas = Model.Count(c => c.Ativa);
+    var categoriasInativas = totalCategorias - categoriasAtivas;
+    var totalProdutos = Model.Sum(c => c.Produtos.Count);
+}
+
+<div class="dashboard">
+
+    <!-- CABEÇALHO -->
+    <section class="dashboard-header">
+        <div>
+            <h1>Categorias</h1>
+            <p>Organize e gerencie as categorias do seu catálogo.</p>
+        </div>
+
+        <a asp-action="Create" class="btn-primary-custom">
+            <i class="bi bi-plus-lg"></i>
+            Nova categoria
+        </a>
+    </section>
+
+    <!-- INDICADORES -->
+    <section class="dashboard-cards">
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Total de categorias</span>
+                <h2>@totalCategorias</h2>
+                <p>Categorias cadastradas</p>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-grid"></i>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Categorias ativas</span>
+                <h2>@categoriasAtivas</h2>
+                <p>Disponíveis no sistema</p>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-check-circle"></i>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Categorias inativas</span>
+                <h2>@categoriasInativas</h2>
+                <p>Desativadas no sistema</p>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-pause-circle"></i>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-info">
+                <span>Total de produtos</span>
+                <h2>@totalProdutos</h2>
+                <p>Distribuídos nas categorias</p>
+            </div>
+            <div class="card-icon">
+                <i class="bi bi-box-seam"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- LISTAGEM -->
+    <section class="recent-products">
+
+        <div class="section-header">
+            <div>
+                <h2>Lista de categorias</h2>
+                <p>Consulte e gerencie as categorias cadastradas.</p>
+            </div>
+        </div>
+
+        <!-- PESQUISA -->
+        <div class="category-toolbar">
+            <div class="category-search">
+                <i class="bi bi-search"></i>
+                <input type="text"
+                       id="pesquisaCategoria"
+                       placeholder="Pesquisar categoria..." />
+            </div>
+
+            <span class="category-counter">
+                @totalCategorias categorias
+            </span>
+        </div>
+
+        <!-- TABELA -->
+        <div class="table-container">
+
+            <table id="tabelaCategorias">
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Descrição</th>
+                        <th>Produtos</th>
+                        <th>Situação</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var categoria in Model)
+                    {
+                        <tr>
+                            <td>
+                                <strong>@categoria.Nome</strong>
+                            </td>
+
+                            <td>
+                                @(string.IsNullOrWhiteSpace(categoria.Descricao)
+                                    ? "Sem descrição"
+                                    : categoria.Descricao)
+                            </td>
+
+                            <td>
+                                <span class="product-count">
+                                    @categoria.Produtos.Count
+                                </span>
+                            </td>
+
+                            <td>
+                                @if (categoria.Ativa)
+                                {
+                                    <span class="product-status available">
+                                        Ativa
+                                    </span>
+                                }
+                                else
+                                {
+                                    <span class="product-status unavailable">
+                                        Inativa
+                                    </span>
+                                }
+                            </td>
+
+                            <td>
+                                <div class="table-actions">
+
+                                    <a asp-action="Edit"
+                                       asp-route-id="@categoria.Id"
+                                       class="table-action edit"
+                                       title="Editar">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </a>
+
+                                    <a asp-action="Details"
+                                       asp-route-id="@categoria.Id"
+                                       class="table-action details"
+                                       title="Detalhes">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+
+                                    <a asp-action="Delete"
+                                       asp-route-id="@categoria.Id"
+                                       class="table-action delete"
+                                       title="Excluir">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div id="nenhumaCategoria" class="empty-search" style="display:none;">
+                <i class="bi bi-search"></i>
+                <p>Nenhuma categoria encontrada.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+@section Scripts {
+    <script>
+        const pesquisa = document.getElementById("pesquisaCategoria");
+        const tabela = document.getElementById("tabelaCategorias");
+        const mensagemVazia = document.getElementById("nenhumaCategoria");
+
+        pesquisa.addEventListener("input", function () {
+            const termo = this.value.toLowerCase().trim();
+            const linhas = tabela.querySelectorAll("tbody tr");
+
+            let encontrados = 0;
+
+            linhas.forEach(linha => {
+                const corresponde = linha.textContent.toLowerCase().includes(termo);
+
+                linha.style.display = corresponde ? "" : "none";
+
+                if (corresponde) {
+                    encontrados++;
+                }
+            });
+
+            mensagemVazia.style.display =
+                encontrados === 0 ? "block" : "none";
+
+            tabela.style.display =
+                encontrados === 0 ? "none" : "table";
+        });
+    </script>
+}
