@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioOnline\\CardapioOnline\\CardapioOnline.csproj",
+      "projectUniqueName": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioOnline\\CardapioCliente\\CardapioOnline\\CardapioOnline.csproj",
       "projectName": "CardapioOnline",
-      "projectPath": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioOnline\\CardapioOnline\\CardapioOnline.csproj",
+      "projectPath": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioOnline\\CardapioCliente\\CardapioOnline\\CardapioOnline.csproj",
       "packagesPath": "C:\\Users\\Tarde.cetafaju\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioOnline\\CardapioOnline\\obj\\",
+      "outputPath": "C:\\Users\\Tarde.cetafaju\\Documents\\GitHub\\CardapioOnline\\CardapioCliente\\CardapioOnline\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

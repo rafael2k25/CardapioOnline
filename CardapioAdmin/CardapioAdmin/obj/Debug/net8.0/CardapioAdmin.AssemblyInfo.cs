@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CardapioAdmin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2001d790058f72d8d4b9c69e6ccf9a46f7af528c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+390d49f6c38c5390c166235f0939bbd0ce4060e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CardapioAdmin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CardapioAdmin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

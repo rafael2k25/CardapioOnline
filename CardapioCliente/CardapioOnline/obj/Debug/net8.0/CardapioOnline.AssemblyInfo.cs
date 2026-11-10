@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CardapioOnline")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+390d49f6c38c5390c166235f0939bbd0ce4060e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CardapioOnline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CardapioOnline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

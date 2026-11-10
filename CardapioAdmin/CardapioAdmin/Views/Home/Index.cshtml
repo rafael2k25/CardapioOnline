@@ -28,7 +28,7 @@
         <div class="dashboard-card">
             <div class="card-info">
                 <span>Total de produtos</span>
-                <h2>128</h2>
+                <h2 id="totalProdutos">0</h2>
                 <p>Produtos cadastrados</p>
             </div>
             <div class="card-icon">
@@ -39,7 +39,7 @@
         <div class="dashboard-card">
             <div class="card-info">
                 <span>Categorias</span>
-                <h2>8</h2>
+                <h2 id="totalCategorias">0</h2>
                 <p>Categorias cadastradas</p>
             </div>
             <div class="card-icon">
@@ -50,7 +50,7 @@
         <div class="dashboard-card">
             <div class="card-info">
                 <span>Produtos disponíveis</span>
-                <h2>112</h2>
+                <h2 id="produtosDisponiveis">0</h2>
                 <p>Disponíveis para consulta</p>
             </div>
             <div class="card-icon">
@@ -61,7 +61,7 @@
         <div class="dashboard-card">
             <div class="card-info">
                 <span>Produtos indisponíveis</span>
-                <h2>16</h2>
+                <h2 id="produtosIndisponiveis">0</h2>
                 <p>Fora de disponibilidade</p>
             </div>
             <div class="card-icon">
@@ -144,49 +144,9 @@
                     </tr>
                 </thead>
 
-                <tbody>
+                <tbody id="tabelaProdutosRecentes">
                     <tr>
-                        <td>TESTE TESTE</td>
-                        <td>Descrição</td>
-                        <td>Preço</td>
-                        <td>
-                            <span class="product-status available">
-                                Disponível
-                            </span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>TESTE TESTE</td>
-                        <td>Descrição</td>
-                        <td>Preço</td>
-                        <td>
-                            <span class="product-status available">
-                                Disponível
-                            </span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>TESTE TESTE</td>
-                        <td>Descrição</td>
-                        <td>Preço</td>
-                        <td>
-                            <span class="product-status unavailable">
-                                Indisponível
-                            </span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>TESTE TESTE</td>
-                        <td>Descrição</td>
-                        <td>Preço</td>
-                        <td>
-                            <span class="product-status available">
-                                Disponível
-                            </span>
-                        </td>
+                        <td colspan="4">Carregando produtos...</td>
                     </tr>
                 </tbody>
             </table>
